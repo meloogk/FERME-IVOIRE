@@ -44,10 +44,10 @@ const Home = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-2xl animate-fadeIn">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              Bienvenue à FERM'IVOIRE
+             Bienvenue à FERM'IVOIRE, où qualité et savoir-faire se rencontrent !
             </h1>
             <p className="text-xl text-white mb-8">
-              Des produits fermiers frais et biologiques, directement du producteur au consommateur
+              Des produits fermiers frais et biologiques, directement du producteur au consommateur,Découvrez nos volailles, poissons, porcs, lapins et escargots élevés avec passion pour une alimentation saine et savoureuse.
             </p>
             <div className="flex flex-wrap gap-4">
               <NavLink 
@@ -74,15 +74,14 @@ const Home = () => {
             <div>
               <h2 className="text-3xl font-bold text-green-600 mb-6">Notre mission</h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                FERM'IVOIRE s'engage à produire des aliments de haute qualité tout en préservant 
-                l'environnement et les traditions agricoles ivoiriennes. Notre ferme utilise des 
-                méthodes durables qui respectent la terre et assurent le bien-être animal.
+                Chez <strong>FERM'IVOIRE</strong>, notre mission est simple : 
               </p>
               <ul className="space-y-3">
                 {[
-                  "Produits 100% bio et sans pesticides",
-                  "Bien-être animal et conditions d'élevage optimales",
+                  "Vous offrir des produits fermiers de qualité supérieure",
+                  "Promouvoir une alimentation saine et locale",
                   "Soutien à l'économie locale et aux pratiques durables",
+                  "Assurer une traçabilité totale, de l’élevage à l’assiette<",
                   "Transparence totale sur nos méthodes de production"
                 ].map((item, index) => (
                   <li key={index} className="flex items-start">

@@ -14,7 +14,7 @@ const Products = () => {
       name: "Poulets de Chair",
       description: "Poulets élevés en plein air, nourris aux céréales de qualité",
       imageUrl: "https://images.pexels.com/photos/2252584/pexels-photo-2252584.jpeg",
-      price: "4500 FCFA/kg",
+      price: "2500 FCFA/unité",
       category: "volailles"
     },
     {
@@ -22,7 +22,7 @@ const Products = () => {
       name: "Œufs de Poules Pondeuses",
       description: "Œufs frais de poules élevées dans des conditions optimales",
       imageUrl: "https://images.pexels.com/photos/162712/egg-white-food-protein-162712.jpeg",
-      price: "3500 FCFA/plateau",
+      price: "3000 FCFA/plateau",
       category: "volailles"
     },
     {
@@ -56,6 +56,30 @@ const Products = () => {
       imageUrl: "https://images.pexels.com/photos/4001296/pexels-photo-4001296.jpeg",
       price: "6000 FCFA/unité",
       category: "lapins"
+    },
+     {
+      id: 7,
+      name: "Moutons",
+      description: "Lapins élevés dans le respect du bien-être animal",
+      imageUrl: "https://images.pexels.com/photos/4001296/pexels-photo-4001296.jpeg",
+      price: "6000 FCFA/unité",
+      category: "bétail"
+    },
+     {
+      id: 8,
+      name: "Boeufs",
+      description: "Lapins élevés dans le respect du bien-être animal",
+      imageUrl: "https://images.pexels.com/photos/4001296/pexels-photo-4001296.jpeg",
+      price: "6000 FCFA/unité",
+      category: "bétail"
+    },
+     {
+      id: 9,
+      name: "Cabris",
+      description: "Lapins élevés dans le respect du bien-être animal",
+      imageUrl: "https://images.pexels.com/photos/4001296/pexels-photo-4001296.jpeg",
+      price: "6000 FCFA/unité",
+      category: "bétail"
     }
   ];
 
@@ -69,7 +93,29 @@ const Products = () => {
       title: "Élevage de poissons",
       url: "https://www.youtube.com/watch?v=example2",
       thumbnail: "https://images.pexels.com/photos/2131967/pexels-photo-2131967.jpeg"
-    }
+    },
+     {
+      title: "Élevage d'escargots",
+      url: "https://www.youtube.com/watch?v=example1",
+      thumbnail: "https://images.pexels.com/photos/2255459/pexels-photo-2255459.jpeg"
+    },
+    {
+      title: "Élevage de porcs ",
+      url: "https://www.youtube.com/watch?v=example1",
+      thumbnail: "https://images.pexels.com/photos/2255459/pexels-photo-2255459.jpeg"
+    },
+    {
+      title: "Élevage de lapins",
+      url: "https://www.youtube.com/watch?v=example1",
+      thumbnail: "https://images.pexels.com/photos/2255459/pexels-photo-2255459.jpeg"
+    },
+    
+    {
+      title: "Élevage de bétail",
+      url: "https://www.youtube.com/watch?v=example1",
+      thumbnail: "https://images.pexels.com/photos/2255459/pexels-photo-2255459.jpeg"
+    },
+    
   ];
   
   const categories = [
@@ -78,6 +124,7 @@ const Products = () => {
     { id: 'poissons', name: 'Poissons' },
     { id: 'escargots', name: 'Escargots' },
     { id: 'porcs', name: 'Porcs' },
+    { id: 'bétail', name: 'Bétail' },
     { id: 'lapins', name: 'Lapins' }
   ];
   
