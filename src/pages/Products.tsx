@@ -13,7 +13,7 @@ const Products = () => {
       id: 1,
       name: "Poulets de Chair",
       description: "Poulets élevés en plein air, nourris aux céréales de qualité",
-      imageUrl: "https://images.pexels.com/photos/2252584/pexels-photo-2252584.jpeg",
+      imageUrl: "https://www.volailleschampenoises.fr/wp-content/uploads/ferme-poulet.jpg",
       price: "2500 FCFA/unité",
       category: "volailles"
     },
@@ -21,7 +21,7 @@ const Products = () => {
       id: 2,
       name: "Œufs de Poules Pondeuses",
       description: "Œufs frais de poules élevées dans des conditions optimales",
-      imageUrl: "https://images.pexels.com/photos/162712/egg-white-food-protein-162712.jpeg",
+      imageUrl: "https://www.ovocom.fr/wp-content/uploads/2017/05/alveole-de-30-oeufs-bio.jpg",
       price: "3000 FCFA/plateau",
       category: "volailles"
     },
@@ -29,15 +29,15 @@ const Products = () => {
       id: 3,
       name: "Poisson Tilapia",
       description: "Poissons d'eau douce élevés dans nos bassins",
-      imageUrl: "https://images.pexels.com/photos/2110928/pexels-photo-2110928.jpeg",
-      price: "2500 FCFA/kg",
+      imageUrl: "https://cdn.futura-sciences.com/sources/images/glossaire/Celine/Tilapia%20%20Dominyk%20Lever%2C%20WorldFish%2C%20Flickr.jpg",
+      price: "3000 FCFA/kg",
       category: "poissons"
     },
     {
       id: 4,
       name: "Escargots Géants",
       description: "Escargots Achatina élevés dans nos parcs",
-      imageUrl: "https://images.pexels.com/photos/13010647/pexels-photo-13010647.jpeg",
+      imageUrl: "https://agratime.com/wp-content/uploads/2019/12/h%C3%A9liciculture.jpg",
       price: "5000 FCFA/kg",
       category: "escargots"
     },
@@ -45,7 +45,7 @@ const Products = () => {
       id: 5,
       name: "Porc",
       description: "Viande de porc de qualité supérieure",
-      imageUrl: "https://images.pexels.com/photos/6107573/pexels-photo-6107573.jpeg",
+      imageUrl: "https://www.deheus.ci/siteassets/animals/swine/de-heus-animal-nutrition_animals_swines_pigs_pigs_in_stable.jpeg?mode=crop&width=600&height=435",
       price: "3800 FCFA/kg",
       category: "porcs"
     },
@@ -53,7 +53,7 @@ const Products = () => {
       id: 6,
       name: "Lapins",
       description: "Lapins élevés dans le respect du bien-être animal",
-      imageUrl: "https://images.pexels.com/photos/4001296/pexels-photo-4001296.jpeg",
+      imageUrl: "https://www.l214.com/wp-content/uploads/2021/09/lapin-cages.jpg",
       price: "6000 FCFA/unité",
       category: "lapins"
     },
@@ -61,7 +61,7 @@ const Products = () => {
       id: 7,
       name: "Moutons",
       description: "Lapins élevés dans le respect du bien-être animal",
-      imageUrl: "https://images.pexels.com/photos/4001296/pexels-photo-4001296.jpeg",
+      imageUrl: "https://img.lemde.fr/2019/08/12/0/0/3268/1627/1440/720/60/0/2155578_3WpvyQbvO5vkcw7MA9Huf3oU.jpg",
       price: "6000 FCFA/unité",
       category: "bétail"
     },
@@ -69,7 +69,7 @@ const Products = () => {
       id: 8,
       name: "Boeufs",
       description: "Lapins élevés dans le respect du bien-être animal",
-      imageUrl: "https://images.pexels.com/photos/4001296/pexels-photo-4001296.jpeg",
+      imageUrl: "https://www.zoologiste.com/images/xl/boeuf-brun.jpg",
       price: "6000 FCFA/unité",
       category: "bétail"
     },
@@ -77,7 +77,7 @@ const Products = () => {
       id: 9,
       name: "Cabris",
       description: "Lapins élevés dans le respect du bien-être animal",
-      imageUrl: "https://images.pexels.com/photos/4001296/pexels-photo-4001296.jpeg",
+      imageUrl: "https://www.bio-suisse.ch/.imaging/focalarea/Cinema/1176x661/dam/jcr:7c2fd7ad-313b-4cc0-944f-8eef0c20c5cd/gitziamtraenkautomatquer.jpg?w=988",
       price: "6000 FCFA/unité",
       category: "bétail"
     }
