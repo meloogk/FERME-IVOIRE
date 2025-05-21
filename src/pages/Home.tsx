@@ -7,24 +7,24 @@ const Home = () => {
   const featuredProducts = [
     {
       id: 1,
-      name: "Oeufs frais biologiques",
-      description: "Des œufs frais provenant de poules élevées en plein air",
-      imageUrl: "https://images.pexels.com/photos/162712/egg-white-food-protein-162712.jpeg",
-      price: "3500 FCFA"
+      name: "Œufs de Poules Pondeuses",
+      description: "Œufs frais de poules élevées dans des conditions optimales",
+      imageUrl: "https://www.ovocom.fr/wp-content/uploads/2017/05/alveole-de-30-oeufs-bio.jpg",
+      price: "3000 FCFA/plateau"
     },
     {
       id: 2,
-      name: "Légumes bio de saison",
-      description: "Légumes cultivés sans pesticides, récoltés à maturité",
-      imageUrl: "https://images.pexels.com/photos/1458694/pexels-photo-1458694.jpeg",
-      price: "2800 FCFA"
+      name: "Poisson Tilapia",
+      description: "Poissons d'eau douce élevés dans nos bassins",
+      imageUrl: "https://cdn.futura-sciences.com/sources/images/glossaire/Celine/Tilapia%20%20Dominyk%20Lever%2C%20WorldFish%2C%20Flickr.jpg",
+      price: "3000 FCFA/kg"
     },
     {
       id: 3,
-      name: "Lait frais entier",
-      description: "Lait frais non pasteurisé provenant de nos vaches nourries à l'herbe",
-      imageUrl: "https://images.pexels.com/photos/2064129/pexels-photo-2064129.jpeg",
-      price: "1200 FCFA"
+      name: "Poulets de Chair",
+      description: "Poulets élevés en plein air, nourris aux céréales de qualité",
+      imageUrl: "https://www.volailleschampenoises.fr/wp-content/uploads/ferme-poulet.jpg",
+      price: "2500 FCFA/unité"
     }
   ];
   
